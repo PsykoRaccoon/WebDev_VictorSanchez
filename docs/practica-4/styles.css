@@ -1,0 +1,105 @@
+.responsive-img 
+{
+    max-width: 90%;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+body
+{
+    background-color: #7ad5ff !important;
+}
+
+
+
+.image-container
+{
+    text-align: center;
+}
+
+.video-container
+{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 90%;
+    background: #000;
+}
+
+h1
+{
+    margin-top: 30px;
+}
+
+.carousel 
+{
+    margin-top: 30px; 
+    margin-bottom: 40px;
+}
+  
+.carousel-inner
+{
+    height: 500px;
+}
+
+.carousel-item img 
+{
+    max-width: 80%; 
+    max-height: 100%; 
+    margin: auto;
+    display: block;
+    object-fit: contain;
+}
+
+.accordion
+{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.img-container 
+{
+    text-align: center;
+    margin-bottom: 30px;
+}
+  
+.img-container img 
+{
+    max-width: 25%
+}
+
+.btn-group-container 
+{
+    display: grid;
+    place-items: center; 
+    margin-bottom: 50px;
+    margin-top: 50px;
+ }
+
+.btn-facebook 
+{
+    background-color: #3b5998 !important; 
+    border-color: #3b5998 !important; 
+}
+  
+.btn-instagram 
+{
+    background-color: #e4405f !important; 
+    border-color: #e4405f !important; 
+}
+  
+.btn-twitter 
+{
+    background-color: #1da1f2 !important; 
+    border-color: #1da1f2 !important; 
+}
+  
+  
+  
+  
