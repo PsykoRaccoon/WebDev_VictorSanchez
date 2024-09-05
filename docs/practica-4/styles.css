@@ -10,9 +10,8 @@
 body
 {
     background-color: #7ad5ff !important;
+    padding-top: 70px;
 }
-
-
 
 .image-container
 {
@@ -30,11 +29,6 @@ body
     overflow: hidden;
     max-width: 90%;
     background: #000;
-}
-
-h1
-{
-    margin-top: 30px;
 }
 
 .carousel 
