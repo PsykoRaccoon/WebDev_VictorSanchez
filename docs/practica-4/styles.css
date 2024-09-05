@@ -13,6 +13,12 @@ body
     padding-top: 70px;
 }
 
+.custom-font 
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+}
+
 .image-container
 {
     text-align: center;
@@ -30,6 +36,16 @@ body
     max-width: 90%;
     background: #000;
 }
+
+.video-container iframe 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 
 .carousel 
 {

@@ -21,6 +21,11 @@ body {
     color: #79a1ff;
 
   }
+
+  a
+  {
+    color: azure;
+  }
   
   .responsive-img {
     max-width: 20%;
