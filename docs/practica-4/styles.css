@@ -109,6 +109,12 @@ body
     background-color: #1da1f2 !important; 
     border-color: #1da1f2 !important; 
 }
+
+.form-floating
+{
+    margin-top: 40px;
+    
+}
   
   
   
