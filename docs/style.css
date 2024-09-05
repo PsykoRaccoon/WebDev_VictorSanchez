@@ -23,8 +23,8 @@ body {
   }
   
   .responsive-img {
-    max-width: 70%;
-    height: 70%;
-    scale: 70%;
+    max-width: 20%;
+    height: auto;
+    display: inline-block;
   }
   
