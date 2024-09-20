@@ -8,4 +8,3 @@ Edad: 19
 ---
 [Practica 5](./practica-5/index.html)
 
-![Yo](./img/Yo.jpg)
