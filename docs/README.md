@@ -8,3 +8,5 @@ Edad: 19
 ---
 [Practica 5](https://victor-sanchez-3010.github.io/WebDev_VictorSanchez/practica-5/index.html)
 ---
+[Practica 6](https://victor-sanchez-3010.github.io/WebDev_VictorSanchez/practica-6/index.html)
+---

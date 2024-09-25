@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'PT Sans', system-ui, sans-serif;
+  background-color: #5f5f83;
+  color: #fff;
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#productos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.producto {
+  background-color: #444;
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 8px;
+  width: 250px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.producto button {
+  background-color: #61dafb;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.producto button:hover {
+  background-color: #21a1f1;
+}
+
+.carrito {
+  border: 2px solid #61dafb;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #333;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#lista-carrito {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+#total-carrito {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#btn-compra {
+  background-color: #61dafb;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1rem;
+  display: block;
+  margin: 0 auto;
+  transition: background-color 0.3s ease;
+}
+
+#btn-compra:hover {
+  background-color: #21a1f1;
+}
+
+#mensaje-compra {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#loader {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.hidden {
+  display: none;
+}
